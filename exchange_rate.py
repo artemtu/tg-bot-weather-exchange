@@ -15,7 +15,7 @@ def get_usd_info():
     elif usd_price > 80:
         recommendation = 'ждём снижения'
     elif usd_price > 100:
-        recommendation = 'нам пиздец!'
+        recommendation = 'нам конец!'
     elif usd_price < 70:
         recommendation = 'берём бакс на все бабки!!!'
     return {
